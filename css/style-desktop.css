@@ -171,8 +171,9 @@
 	
 		#top p
 		{
-			font-size: 1.5em;
-			line-height: 1.75em;
+			font-size: 1em;
+			line-height: 1.5em;
+			font-weight: 700
 		}
 		
 	#contact
