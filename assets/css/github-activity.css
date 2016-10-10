@@ -92,6 +92,7 @@ span.gha-time {
 }
 
 .gha-footer {
+  display: none;
   position: absolute;
   bottom: -1px;
   left: 1px;
