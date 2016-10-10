@@ -3226,3 +3226,6 @@
 .dn {
 	display: none;
 }
+#feed {
+	width: 100%;
+}

@@ -15,6 +15,11 @@
 		<meta name="google-site-verification" content="krMSvIckpOxXRuNO5f-brBn4N8LdBUKoaWAjQ0IsVmw" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+		<link rel="stylesheet" href="assets/css/github-activity.css">
+
+		<script type="text/javascript" src="assets/js/mustache.js"></script>
+		<script type="text/javascript" src="assets/js/github-activity.js"></script>
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 
 		<script>
@@ -144,6 +149,13 @@
 							</article>
 						</div>
 					</section>
+				<!-- four -->
+					<section id="four">
+						<h2>GitHub Activities</h2>
+						<div class="row">
+							<div id="feed"></div>
+						</div>
+					</section>
 
 				<!-- Three -->
 					<section id="three">
@@ -193,6 +205,13 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script type="text/javascript">
+				GitHubActivity.feed({
+				    username: "arungoibibo",
+				    selector: "#feed",
+				    limit: 20 // optional
+				});
+			</script>
 
 
 	</body>
