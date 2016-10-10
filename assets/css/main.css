@@ -3229,3 +3229,6 @@
 #feed {
 	width: 100%;
 }
+.portfolio{
+	border-bottom: #fff 1px solid;
+}
