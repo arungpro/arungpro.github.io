@@ -74,7 +74,8 @@ span.gha-time {
 .gha-header {
   position: absolute;
   top: 1px;
-  l/*eft: 1px;*/
+/*  left: 1px;
+*/  
   width: 95.3%;
   padding: 10px;
   height: 67px;
