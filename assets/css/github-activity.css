@@ -72,6 +72,7 @@ span.gha-time {
 }
 
 .gha-header {
+  display: none;
   position: absolute;
   top: 1px;
 /*  left: 1px;
@@ -269,5 +270,5 @@ span.gha-time {
 
 .gha-clear { clear: both; }
 .gha-muted { color: #666; }
-.gha-push  { height: 87px; }
+/*.gha-push  { height: 87px; }*/
 .gha-push-small  { height: 26px; }
